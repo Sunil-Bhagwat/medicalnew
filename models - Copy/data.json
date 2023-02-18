@@ -1,0 +1,1 @@
+{"sex_dict": {"male": 0, "female": 1}, "smoker_dict": {"no": 0, "yes": 1}, "column_name": ["age", "sex", "bmi", "children", "smoker", "region_northeast", "region_northwest", "region_southeast", "region_southwest"]}

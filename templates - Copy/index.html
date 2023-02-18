@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Charges Price Prediction</title>
+</head>
+<body style="background-color :rgb(111, 124, 148);">
+    <h1>Medical Charges Price Prediction</h1>
+    <form method="GET" action = "/predict_charge">
+        <label>AGE :</label>
+        <input type = "text" name = "age">
+        </select>
+        <br>
+        <br>
+
+        <label>Sex:</label>
+        <select name = "sex">
+            <option value = "male">Male</option>
+            <option value = "female">Female</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label>BMI:</label>
+        <input type = "text" name = "bmi">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Children:</label>
+        <input type = "text" name = "children">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Smoker:</label>
+        <select name = "smoker">
+            <option value = "yes">yes</option>
+            <option value = "no">no</option>
+        </select>
+       
+        <br>
+        <br>
+
+        <label>Region:</label>
+        <select name = "region">
+            <option value = "northeast">Northeast</option>
+            <option value = "southeast">Southeast</option>
+            <option value = "northwest">Northwest</option>
+            <option value = "southwest">Southwest</option>
+        </select>
+
+        <br>
+        <br>
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+
+        <p>Our predicted Medical Charge <b> {{ prediction }} /- Rs.</b> Only </p>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
